@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2193025d-ba61-4861-9acb-af6b5c135c0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/04-RestAPIs/src/main/java/com/REST/RestAPIs/exceptions/StudentExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-RestAPIs/src/main/java/com/REST/RestAPIs/exceptions/StudentNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-RestAPIs/src/main/java/com/REST/RestAPIs/exceptions/StudentNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-RestAPIs/src/main/java/com/REST/RestAPIs/student/GetStudentApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-RestAPIs/src/main/java/com/REST/RestAPIs/student/GetStudentApi.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ZSW5Bt4f0WXiO2odjfruK7rsCh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/CEM/OneDrive/Pulpit/SpringBoot/01-spring-boot-overview/RestApiDesign",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "b684e7a2a29ef8aa94f5eecd492ed44e",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="04-RestAPIs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.REST.RestAPIs.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2193025d-ba61-4861-9acb-af6b5c135c0c" name="Changes" comment="" />
+      <created>1702415775171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702415775171</updated>
+      <workItem from="1702415776194" duration="3691000" />
+      <workItem from="1702611230829" duration="667000" />
+    </task>
+    <task id="LOCAL-00001" summary="retrieving data/single data from db and handling exceptions">
+      <option name="closed" value="true" />
+      <created>1702421199239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702421199239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="retrieving data/single data from db and handling exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="retrieving data/single data from db and handling exceptions" />
+  </component>
+</project>
