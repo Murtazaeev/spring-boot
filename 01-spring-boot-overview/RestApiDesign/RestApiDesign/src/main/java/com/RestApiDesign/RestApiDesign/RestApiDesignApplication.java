@@ -1,13 +1,13 @@
-package com.RestApiDesign.APIDesign;
+package com.RestApiDesign.RestApiDesign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class  ApiDesignApplication {
+public class RestApiDesignApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiDesignApplication.class, args);
+		SpringApplication.run(RestApiDesignApplication.class, args);
 	}
 
 }
