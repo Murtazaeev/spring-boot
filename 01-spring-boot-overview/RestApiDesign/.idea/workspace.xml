@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87bc5e7-b224-49c6-ad7f-c1002cbe22ed" name="Changes" comment="created employee dao and service">
+    <list default="true" id="d87bc5e7-b224-49c6-ad7f-c1002cbe22ed" name="Changes" comment="updating and deleting employees">
+      <change afterPath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/dao/EmployeeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/dao/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/dao/EmployeeDAOJpaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/dao/EmployeeDAOJpaImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/rest/EmployeeRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/rest/EmployeeRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDesign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDesign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/dao/EmployeeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/dao/EmployeeDAOJpaImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDesign/src/main/java/com/RestApiDesign/RestApiDesign/service/EmployeeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +23,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -81,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702612778061</updated>
-      <workItem from="1702612779061" duration="4776000" />
+      <workItem from="1702612779061" duration="7608000" />
     </task>
     <task id="LOCAL-00001" summary="created employee dao and service">
       <option name="closed" value="true" />
@@ -91,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702614838384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updating and deleting employees">
+      <option name="closed" value="true" />
+      <created>1702617873036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702617873036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created employee dao and service" />
-    <option name="LAST_COMMIT_MESSAGE" value="created employee dao and service" />
+    <MESSAGE value="updating and deleting employees" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating and deleting employees" />
   </component>
 </project>
