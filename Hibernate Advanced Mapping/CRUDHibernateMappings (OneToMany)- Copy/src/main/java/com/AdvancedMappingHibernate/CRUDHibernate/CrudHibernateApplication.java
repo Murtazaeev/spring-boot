@@ -32,9 +32,23 @@ public class CrudHibernateApplication {
 //            updateInstructor(appDAO);
 //            deleteInstructor(appDAO);
 //            deletingCourse(appDAO);
-
+//            creatingCourse(appDAO);
+            deletingCourseById(appDAO);
         };
+    }
 
+    private void creatingCourse(AppDAO appDAO) {
+        Course tempCourse = new Course("Udemy spring Chad");
+        appDAO.createCourse(tempCourse);
+
+    }
+
+    private void deletingCourseById(AppDAO appDAO) {
+
+        int theId = 10;
+
+        System.out.println("finding" + theId);
+        appDAO.deleteCourseById(theId);
     }
 
 //    private void deletingCourse(AppDAO appDAO) {

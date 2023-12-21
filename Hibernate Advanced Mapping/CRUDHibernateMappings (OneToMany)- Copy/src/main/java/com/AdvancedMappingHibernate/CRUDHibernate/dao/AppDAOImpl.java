@@ -7,6 +7,7 @@ import jakarta.persistence.TypedQuery;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.lang.reflect.Type;
 import java.util.List;
 
 
@@ -21,7 +22,7 @@ public class AppDAOImpl implements AppDAO {
 
     @Override
     @Transactional
-    public void save(Instructor theInstructor) {
+    public void createCourse(Instructor theInstructor) {
         entityManager.persist(theInstructor);
     }
 
@@ -84,9 +85,20 @@ public class AppDAOImpl implements AppDAO {
     @Transactional
     public void deleteCourseById(int theId) {
         Course tempCourse = entityManager.find(Course.class, theId);
-
         entityManager.remove(tempCourse);
 
     }
+
+    @Override
+    @Transactional
+    public void createCourse(Course theCourse) {
+        entityManager.persist(theCourse);
+    }
+
+    @Override
+    public Course findCourseById(int theId) {
+        return entityManager.find(Course.class, theId);
+    }
+
 
 }

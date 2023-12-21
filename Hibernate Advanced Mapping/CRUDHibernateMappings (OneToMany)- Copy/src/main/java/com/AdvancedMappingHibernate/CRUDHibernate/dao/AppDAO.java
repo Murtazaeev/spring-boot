@@ -2,12 +2,11 @@ package com.AdvancedMappingHibernate.CRUDHibernate.dao;
 
 import com.AdvancedMappingHibernate.CRUDHibernate.entity.Course;
 import com.AdvancedMappingHibernate.CRUDHibernate.entity.Instructor;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 public interface AppDAO {
-    void save(Instructor theInstructor);
+    void createCourse(Instructor theInstructor);
 
     Instructor findInstructorById(int theId);
 
@@ -22,7 +21,7 @@ public interface AppDAO {
 
     void deleteCourseById(int theId);
 
+    void createCourse(Course theCourse);
 
-
-
+    Course findCourseById(int theId);
 }
